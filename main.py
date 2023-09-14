@@ -9,7 +9,7 @@ app = FastAPI()
 def read_root():
     return {"Hello": "World"}
 
-@appget("/hello")
+@app.get("/hello")
 def read_root():
     return {"Hello": "World2"}
 
